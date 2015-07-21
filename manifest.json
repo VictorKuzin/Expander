@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name":"Expander",
+    "description":"Powerful utility to manage and rating bookmarks and notes ",
+    "version":"0.1",
+
+    "browser_action": {
+        "default_icon":"visual/img/icon_bookmark.png",
+        "default_popup":"visual/main.html"
+    },
+
+    "options_page": "visual/options.html",
+    "permissions":["tabs","storage"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
